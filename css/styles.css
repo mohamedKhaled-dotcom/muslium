@@ -43,16 +43,13 @@ a{
 header .container{
     width: 100%;
     height: 660px;
-    background-image: linear-gradient(to right, #f820932f, #ff990062)
-    , url("../images/bgContainer.jpg");
+    background-image:  linear-gradient(to right, #ff07072e, transparent),
+    url("../images/bgContainer.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-header .container:hover{
-   background-image:  linear-gradient(to right, #ff07072e, transparent),
-    url("../images/bgContainer.jpg");
-}
+
 
 .items{
     padding: 6px;
